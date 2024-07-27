@@ -1,0 +1,54 @@
+input {
+    width: 30%;
+}
+
+label {
+    font-family: Tahoma, Geneva, Verdana, sans-serif;
+    color: green; 
+}
+
+input[type="text"], input[type="email"] {
+    padding: 2px 2px;
+    margin: 8px 0;
+    border: none;
+    border-bottom: 2px solid black;
+}
+
+input[type="radio"]  {
+    width: 20px;
+}
+
+textarea {
+    border: 2px solid black;
+}
+
+input[type="Submit"] {
+    background-color: black;
+    color: white;
+    width: 11.5%;
+}
+
+div {
+    text-align: center;
+    width: 100px;
+    height: 100px;
+    background-color: lightcyan;
+
+    /*Animations*/
+    position: relative;
+    animation-name: colour-changer;
+    animation-duration: 4s;
+}
+
+div:hover {
+    width: 200px;
+    height: 200px;
+}
+
+@keyframes colour-changer {
+    0% {background-color: rgb(237, 145, 145); left: 0px; top: 0px;}
+    25% {background-color: rgb(237, 145, 211); left: 500px; top: 50px;}
+    50% {background-color:rgb(80, 230, 195); left: 200px; top: 100px;}
+    75% {background-color: rgb(246, 244, 178); left: 0px; top: 100px;}
+    100% {background-color: rgb(178, 218, 246); left: 0px; top: 0px;}
+ }

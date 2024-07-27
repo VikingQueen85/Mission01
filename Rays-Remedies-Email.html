@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Email Form</title>
+    <link rel="stylesheet" href="Rays-Remedies-Email.css">
+    </head>
+
+    <style>
+       label {
+        color: green
+       }
+
+       #subject-label {
+        color: green;
+       }
+    </style>
+
+    <body>  
+        <form action="mailto:teresap@missionreadyhq.com" method="post" enctype="text/plain">
+            <fieldset>
+                <Legend>Contact Us</Legend>
+                <label>Name</label>
+                <input type="text" name="Name" required placeholder="First and last name" />
+                <br/>
+   
+                <!-- Second Input Field-->
+                <label>Email</label>
+                <input type="Email" name="Email" required placeholder="Email address" />
+                <br/>
+   
+               <!--Radio Buttons-->
+               <input type="radio" id="Sales" name="Subject" value="Sales"> <label for="Sales">Sales</label> <br/>
+               <input type="radio" id="Support" name="Subject" value="Support"> <label for="Support">Support</label> <br/>
+               <input type="radio" id="Other" name="Subject" value="Other"> <label for="Other">Other</label> <br/>
+   
+                <!--Text Area-->
+                <label>Message</label> <br/>
+                <textarea name="Message"></textarea>
+                <br/>
+   
+                <!--Submit Button-->
+                <input type="submit" value="Submit" />
+
+                <div>Mind, Body, Soul</div>
+
+                <style>
+                    body {
+                      background-image: url('https://media.istockphoto.com/id/1255236230/photo/body-mind-soul-spirit.jpg?s=612x612&w=0&k=20&c=GR0wKYibbxqL1BxQYXY8vvSq_BzOieiQSorNrlVl1MA=');
+                      background-repeat: no-repeat;
+                      background-attachment: fixed;
+                      background-size: cover;
+                    }
+                </style>
+                
+            </fieldset>
+
+    </body>
+
+</html>
