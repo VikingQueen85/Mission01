@@ -1,0 +1,10 @@
+body {
+    font-family: fantasy;
+    font-stretch: expanded;
+}
+
+/*-----Header-----*/
+
+h1 {
+    text-shadow: 4px 4px 8px orange;
+}
