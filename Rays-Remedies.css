@@ -32,8 +32,8 @@ body {
 
 /*-----HEADER SECTION-----*/
 
-.header > h1 {
-    text-shadow: orange;
+h1 {
+    text-shadow: 4px 4px 8px orange;
 }
 
 /*-----MAIN CONTENT-----*/
@@ -41,3 +41,11 @@ body {
 
 
 /*-----FOOTER SECTION-----*/
+
+footer {
+    text-align: center;
+    margin: 150px;
+    padding: 3px;
+    background-color: black;
+    color: aliceblue;
+}
