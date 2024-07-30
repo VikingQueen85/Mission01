@@ -49,7 +49,12 @@ div {
 
 /*-----MAIN CONTENT-----*/
 
-
+main {
+    display: flex;
+    flex-wrap: wrap;
+    width: 110%;
+    justify-content: center;
+}
 
 /*-----FOOTER SECTION-----*/
 
