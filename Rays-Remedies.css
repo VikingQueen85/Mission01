@@ -3,17 +3,34 @@ body {
     font-stretch: expanded;
 }
 
+/*-----HEADER SECTION-----*/
+
+header {
+    padding: 20px;
+    text-align: center;
+    color: black;
+}
+
+h1 {
+    text-shadow: 4px 4px 8px orange;
+    letter-spacing: 10px;
+}
+
 /*-----NAVIGATION SECTION-----*/
 
-.flex-container {
+div {
     display: flex;
     flex-direction: row;
     justify-content: center;
+    width: 100%;
+    position: absolute;
+    top: 0%;
+    background: orange;
 }
 
 .btn {
     background-color: #d8e4ef;
-    color: blue;
+    color: #333;
     text-align: center;
     font-size: 16px;
 }
@@ -30,25 +47,17 @@ body {
     cursor: pointer;
 }
 
-/*-----HEADER SECTION-----*/
-
-h1 {
-    text-shadow: 4px 4px 8px orange;
-    letter-spacing: 10px;
-}
-
 /*-----MAIN CONTENT-----*/
 
-h2 {
-    align-content: center;
-}
+
 
 /*-----FOOTER SECTION-----*/
 
 footer {
-    text-align: center;
-    margin: 200px;
-    padding: 3px;
-    background-color: black;
-    color: aliceblue;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    position: absolute;
+    bottom: 0%;
+    color: #333;
 }
