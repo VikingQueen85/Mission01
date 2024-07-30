@@ -52,8 +52,12 @@ div {
 main {
     display: flex;
     flex-wrap: wrap;
-    width: 110%;
+    width: 105%;
     justify-content: center;
+}
+
+.main > ul {
+    text-size-adjust: 50%;
 }
 
 /*-----FOOTER SECTION-----*/
